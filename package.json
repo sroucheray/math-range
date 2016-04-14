@@ -1,0 +1,36 @@
+{
+  "name": "math-range",
+  "version": "1.0.0",
+  "description": "A set of range related Math functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sroucheray/math-range.git"
+  },
+  "keywords": [
+    "math",
+    "range",
+    "random",
+    "normalize"
+  ],
+  "author": "@sroucheray",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sroucheray/math-range/issues"
+  },
+  "homepage": "https://github.com/sroucheray/math-range#readme",
+  "devDependencies": {
+    "jspm": "^0.16.33",
+    "mocha": "^2.4.5",
+    "sinon": "^1.17.3"
+  },
+  "jspm": {
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.93",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.93"
+    }
+  }
+}
