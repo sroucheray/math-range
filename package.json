@@ -1,10 +1,20 @@
 {
   "name": "math-range",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A set of range related Math functions",
   "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "src/random.js",
+    "src/scale.js"
+  ],
+  "format": "es6",
   "scripts": {
-    "test": "mocha test/test"
+    "test": "mocha test/test",
+    "build": "jspm bundle ./index.js ./dist/range.js"
   },
   "repository": {
     "type": "git",
